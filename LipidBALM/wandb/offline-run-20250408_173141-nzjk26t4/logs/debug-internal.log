@@ -1,0 +1,36 @@
+{"time":"2025-04-08T17:31:41.584787+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\91967\\Documents\\Protein-Lipid interactions\\ProteinLipidBA\\LipidBALM\\wandb\\offline-run-20250408_173141-nzjk26t4\\logs\\debug-core.log"}
+{"time":"2025-04-08T17:31:42.1979318+05:30","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-04-08T17:31:42.198449+05:30","level":"INFO","msg":"created new stream","id":"nzjk26t4"}
+{"time":"2025-04-08T17:31:42.198966+05:30","level":"INFO","msg":"stream: started","id":"nzjk26t4"}
+{"time":"2025-04-08T17:31:42.198966+05:30","level":"INFO","msg":"sender: started","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:31:42.198966+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:31:42.1995168+05:30","level":"INFO","msg":"handler: started","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:31:42.2054594+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T17:31:57.8566752+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:32:12.6285973+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:32:28.1154302+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:32:42.7481422+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:32:58.6793663+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:33:13.8518566+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:33:28.3056729+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:33:42.604138+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:33:57.3285295+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:34:12.4965948+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:34:27.2668744+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:34:42.8820265+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:34:57.247743+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:35:13.0912031+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:35:30.0185665+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:35:47.2223997+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:36:04.9409311+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:36:16.5247625+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:36:28.4252965+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:36:42.7589582+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:37:00.5181468+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-08T17:37:11.8211591+05:30","level":"INFO","msg":"stream: closing","id":"nzjk26t4"}
+{"time":"2025-04-08T17:37:11.825+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T17:37:11.8265206+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T17:37:11.8313743+05:30","level":"INFO","msg":"handler: closed","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:37:11.8325469+05:30","level":"INFO","msg":"sender: closed","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:37:11.8313743+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nzjk26t4"}
+{"time":"2025-04-08T17:37:11.8413997+05:30","level":"INFO","msg":"stream: closed","id":"nzjk26t4"}

@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "CPython 3.12.6",
+  "startedAt": "2025-04-08T12:01:41.299798Z",
+  "args": [
+    "--config_filepath",
+    "configs/lipidbalm_peft.yaml"
+  ],
+  "program": "C:\\Users\\91967\\Documents\\Protein-Lipid interactions\\ProteinLipidBA\\LipidBALM\\scripts\\train.py",
+  "codePath": "scripts\\train.py",
+  "root": "C:\\Users\\91967\\Documents\\Protein-Lipid interactions\\ProteinLipidBA\\LipidBALM",
+  "host": "RKs-PC",
+  "executable": "C:\\Python312\\python.exe",
+  "codePathLocal": "scripts\\train.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "GeForce MX250",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "493787017216",
+      "used": "472224899072"
+    }
+  },
+  "memory": {
+    "total": "8363696128"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "GeForce MX250",
+      "memoryTotal": "2147483648",
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "11.0"
+}

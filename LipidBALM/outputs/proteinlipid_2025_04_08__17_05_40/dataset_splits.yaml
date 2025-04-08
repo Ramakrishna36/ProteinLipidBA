@@ -1,0 +1,15 @@
+test:
+  example_count:
+    lipid_count: 198
+    protein_count: 256
+  size: 291
+train:
+  example_count:
+    lipid_count: 679
+    protein_count: 1235
+  size: 2039
+valid:
+  example_count:
+    lipid_count: 321
+    protein_count: 459
+  size: 583

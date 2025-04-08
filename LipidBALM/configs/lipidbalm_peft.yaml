@@ -1,0 +1,54 @@
+model_configs:
+  checkpoint_path: null  # Will be set after training
+  protein_model_name_or_path: facebook/esm2_t30_150M_UR50D
+  lipid_model_name_or_path: DeepChem/ChemBERTa-77M-MTR
+  model_hyperparameters:
+    learning_rate: 0.001
+    warmup_steps_ratio: 0.06
+    protein_max_seq_len: 2048
+    lipid_max_seq_len: 1024
+    gradient_accumulation_steps: 32
+    projected_size: 256
+    projected_dropout: 0.3
+    relu_before_cosine: false
+    init_noise_sigma: 1
+    sigma_lr: 0.01
+  protein_fine_tuning_type: lokr
+  protein_peft_hyperparameters:
+    r: 16
+    alpha: 32
+    rank_dropout: 0.0
+    module_dropout: 0.0
+    target_modules:
+      - key
+      - query
+      - value
+  lipid_fine_tuning_type: loha
+  lipid_peft_hyperparameters:
+    r: 16
+    alpha: 32
+    rank_dropout: 0.0
+    module_dropout: 0.0
+    target_modules:
+      - key
+      - query
+      - value
+  loss_function: cosine_mse
+
+dataset_configs:
+  dataset_name: ProteinLipid
+  csv_path: C:\Users\91967\Documents\Protein-Lipid interactions\ProteinLipidBA\LipidBALM\dataset\combined_binding_data.csv
+  split_method: random  # Options: random, scaffold, cold
+  frac: [0.7, 0.2, 0.1]  # Split fractions for train/valid/test
+  seed: 42
+  entity: LipidSMILES  # For cold split, entity to use for splitting
+
+training_configs:
+  random_seed: 1234
+  device: -1  # Set to 0 if you have GPU, or "cpu" if no GPU available
+  patience: 30
+  min_delta: 0.005
+  epochs: 100
+  batch_size: 16
+  outputs_dir: C:/Users/91967/Documents/Protein-Lipid interactions/ProteinLipidBA/LipidBALM/outputs
+  

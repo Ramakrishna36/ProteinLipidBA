@@ -1,0 +1,56 @@
+dataset_configs:
+  csv_path: C:\Users\91967\Documents\Protein-Lipid interactions\ProteinLipidBA\LipidBALM\dataset\combined_binding_data.csv
+  dataset_name: ProteinLipid
+  entity: LipidSMILES
+  frac:
+  - 0.7
+  - 0.2
+  - 0.1
+  seed: 42
+  split_method: random
+model_configs:
+  checkpoint_path: null
+  lipid_fine_tuning_type: !!python/object/apply:balm.configs.FineTuningType
+  - loha
+  lipid_model_name_or_path: DeepChem/ChemBERTa-77M-MTR
+  lipid_peft_hyperparameters:
+    alpha: 32
+    module_dropout: 0.0
+    r: 16
+    rank_dropout: 0.0
+    target_modules:
+    - key
+    - query
+    - value
+  loss_function: cosine_mse
+  model_hyperparameters:
+    gradient_accumulation_steps: 32
+    init_noise_sigma: 1.0
+    learning_rate: 0.001
+    lipid_max_seq_len: 1024
+    projected_dropout: 0.3
+    projected_size: 256
+    protein_max_seq_len: 2048
+    relu_before_cosine: false
+    sigma_lr: 0.01
+    warmup_steps_ratio: 0.06
+  protein_fine_tuning_type: !!python/object/apply:balm.configs.FineTuningType
+  - lokr
+  protein_model_name_or_path: facebook/esm2_t30_150M_UR50D
+  protein_peft_hyperparameters:
+    alpha: 32
+    module_dropout: 0.0
+    r: 16
+    rank_dropout: 0.0
+    target_modules:
+    - key
+    - query
+    - value
+training_configs:
+  batch_size: 16
+  device: -1
+  epochs: 100
+  min_delta: 0.005
+  outputs_dir: C:/Users/91967/Documents/Protein-Lipid interactions/ProteinLipidBA/LipidBALM/outputs
+  patience: 30
+  random_seed: 1234
